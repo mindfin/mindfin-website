@@ -1,0 +1,16 @@
+image: node:12.13.0
+
+before_script:
+  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+
+stages:
+  - deploy
+
+deploy:dev:
+  stage: deploy
+  script:
+    - bash deploy/deploy.sh
+  only:
+    - master
+
+
