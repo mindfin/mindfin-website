@@ -36,16 +36,16 @@
                      <a href="business_loan.php" class="footer-link" title="Business Loan">Business Loan</a>
                    </li>
                    <li>
-                     <a href="mortgage.php" class="footer-link" title="Mortgages Loan">Mortgage Loan</a>
+                     <a href="mortgages.php" class="footer-link" title="Mortgages Loan">Mortgage Loan</a>
                    </li>
                    <li>
                      <a href="edc_swiping.php" class="footer-link" title="EDC Swaping">EDC Swiping</a>
                    </li>
                    <li>
-                     <a href="personal-Loan.php" class="footer-link" title="Personal Loan">Personal Loan</a>
+                     <a href="personal_Loan.php" class="footer-link" title="Personal Loan">Personal Loan</a>
                    </li>
                    <li>
-                     <a href="other-loan.php" class="footer-link" title="Others Loan">Others Loan</a>
+                     <a href="other_loan.php" class="footer-link" title="Others Loan">Others Loan</a>
                    </li>
                  </ul>
                </div>
