@@ -20,7 +20,7 @@
                      <a href="about-us.php" class="footer-link" title="menu">About-us</a>
                    </li>
                    <li>
-                     <a href="service.php" class="footer-link" title="services">Services</a>
+                     <a href="services.php" class="footer-link" title="services">Services</a>
                    </li>
                    <li>
                      <a href="career.php" class="footer-link" title="Contact">Career</a>
