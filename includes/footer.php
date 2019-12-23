@@ -42,7 +42,7 @@
                      <a href="edc_swiping.php" class="footer-link" title="EDC Swaping">EDC Swiping</a>
                    </li>
                    <li>
-                     <a href="personal_Loan.php" class="footer-link" title="Personal Loan">Personal Loan</a>
+                     <a href="personal_loan.php" class="footer-link" title="Personal Loan">Personal Loan</a>
                    </li>
                    <li>
                      <a href="other_loan.php" class="footer-link" title="Others Loan">Others Loan</a>
