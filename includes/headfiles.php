@@ -20,15 +20,13 @@
     <link href="css/lightbox.css" rel="stylesheet" />
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TK2KE69C89"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151244197-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-
-      gtag('config', 'G-TK2KE69C89');
-    </script>
+  gtag('config', 'UA-151244197-1');
+</script>
   </head>
