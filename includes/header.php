@@ -71,12 +71,12 @@
   </nav>
 </header>
 <div class="news-letter-wrapper3 blink ">
-  <a target="_blank" title="Contact Us On WhatsApp" href="https://web.whatsapp.com/send?phone=+919513723355&amp;text=Hi, I would like to get more information.." class="whatsapplink hideweb" style="width:60px; height:60px;  border-radius: 50%;">
+  <a target="_blank" title="Contact Us On WhatsApp" href="https://web.whatsapp.com/send?phone=+919513040055&amp;text=Hi, I would like to get more information.." class="whatsapplink hideweb" style="width:60px; height:60px;  border-radius: 50%;">
     <img class="topbar-icon1" src="./images/WhatsApp_Logo_2.png" alt="phone">
   </a>
 </div>
 <div class="news-letter-wrapper2 blink">
-  <a target="_blank" title="Contact Us On WhatsApp" href="https://api.whatsapp.com/send?phone=+919513723355&text=Hi,%20I%20would%20like%20to%20get%20more%20information.." class="whatsapplink hideweb" style="width:60px; height:60px;  border-radius: 50%;">
+  <a target="_blank" title="Contact Us On WhatsApp" href="https://api.whatsapp.com/send?phone=+919513040055&text=Hi,%20I%20would%20like%20to%20get%20more%20information.." class="whatsapplink hideweb" style="width:60px; height:60px;  border-radius: 50%;">
     <img class="topbar-icon1 " src="./images/WhatsApp_Logo_2.png" alt="phone">
   </a>
 </div>
