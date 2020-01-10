@@ -3,8 +3,8 @@
 
 	$dbhost = 'localhost';
 	$dbname ='mindfin'; 
-	$dbuser ='root'; 
-	$dbpass ='mindfin@098';
+	$dbuser ='mindfin'; 
+	$dbpass ='mindfin!@#$%';
 
 	// $dbhost = 'localhost';
 	// $dbname ='mindfin'; 
