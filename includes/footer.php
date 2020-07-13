@@ -128,7 +128,7 @@
                </a>
              </li>
              <li>
-               <a target="_blank" class="twitter" href="https://www.linkedin.com/company/mindfin/" title="@mindfin">
+               <a target="_blank" class="twitter" href="https://www.linkedin.com/company/mindfin_ser_pvt_ltd/" title="@mindfin_ser_pvt_ltd">
                  <i class="fab fa-linkedin-in"></i>
                </a>
              </li>
