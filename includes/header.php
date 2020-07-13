@@ -116,7 +116,7 @@
         </a>
       </li>
       <li>
-        <a target="_blank" class="Linkdin" href="https://www.instagram.com/mindfinser/" title="@mindfinser">
+        <a target="_blank" class="Linkdin" href="https://www.instagram.com/mindfin_ser_pvt_ltd/" title="@mindfin_ser_pvt_ltd">
           <i class="fab fa-instagram"></i>
         </a>
       </li>
