@@ -45,7 +45,7 @@
       <div class="row">
         <div class="col-sm-9">
           <div class="personal-heading">
-            <h2>Personal Loan up to <span>@10.75% </span>that can help
+            <h2>Personal Loan up to <span>@10.5% </span>that can help
               improve bad credit work</h2>
           </div>
         </div>
@@ -250,29 +250,24 @@
                       <tr>
                         <th>Criteria</th>
                         <th>Salaried</th>
-                        <th>Self-employed</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <td>Age</td>
                         <td>21-60 years</td>
-                        <td>25-65 years</td>
                       </tr>
                       <tr>
                         <td>Income</td>
-                        <td>Minimum Rs 15,000</td>
-                        <td>Turnover of Rs 15-40 lakh and minimum PAT of Rs 1 lakh for professionals and 2 lakh for proprietorship , should be in current business for at least 5 years and minimum 3 years for doctors</td>
+                        <td>Minimum Rs 35,000</td>
                       </tr>
                       <tr>
                         <td>Loan amount</td>
-                        <td>Rs 15 lakh</td>
-                        <td></td>
+                        <td>Rs 15-60 lakh</td>
                       </tr>
                       <tr>
                         <td>Rate of interest</td>
-                        <td>16%-18%</td>
-                        <td>11% to 14%</td>
+                        <td>10.5%-13%</td>
                       </tr>
                       <!-- <tr>
                                 <td>Loan processing charges</td>
