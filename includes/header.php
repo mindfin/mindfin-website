@@ -6,7 +6,7 @@
           <ul class="top-left-menu">
             <li>
               <img class="topbar-icon" src="./images/topbar-phone.jpg" alt="phone">
-              <span><a href="tel:+919513040055" style="color:#2e66c1">+91 95130 40055</a></span>
+              <span><a href="tel:+919916162353" style="color:#2e66c1">+91 9916162353</a></span>
             </li>
             <!-- <li>
               <img class="topbar-icon" src="./images/topbar-whatsapp.jpg" alt="phone">
@@ -71,17 +71,17 @@
   </nav>
 </header>
 <div class="news-letter-wrapper3 blink ">
-  <a target="_blank" title="Contact Us On WhatsApp" href="https://web.whatsapp.com/send?phone=+919513040055&amp;text=Hi, I would like to get more information.." class="whatsapplink hideweb" style="width:60px; height:60px;  border-radius: 50%;">
+  <a target="_blank" title="Contact Us On WhatsApp" href="https://web.whatsapp.com/send?phone=+919916162353&amp;text=Hi, I would like to get more information.." class="whatsapplink hideweb" style="width:60px; height:60px;  border-radius: 50%;">
     <img class="topbar-icon1" src="./images/WhatsApp_Logo_2.png" alt="phone">
   </a>
 </div>
 <div class="news-letter-wrapper2 blink">
-  <a target="_blank" title="Contact Us On WhatsApp" href="https://api.whatsapp.com/send?phone=+919513040055&text=Hi,%20I%20would%20like%20to%20get%20more%20information.." class="whatsapplink hideweb" style="width:60px; height:60px;  border-radius: 50%;">
+  <a target="_blank" title="Contact Us On WhatsApp" href="https://api.whatsapp.com/send?phone=+919916162353&text=Hi,%20I%20would%20like%20to%20get%20more%20information.." class="whatsapplink hideweb" style="width:60px; height:60px;  border-radius: 50%;">
     <img class="topbar-icon1 " src="./images/WhatsApp_Logo_2.png" alt="phone">
   </a>
 </div>
 <div class="news-letter-wrapper4">
-  <a title="Call us" href="tel:+919513040055" class="whatsapplink hideweb" >
+  <a title="Call us" href="tel:+919916162353" class="whatsapplink hideweb" >
     <img class="topbar-icon1 " src="./images/call.png" alt="phone">
   </a>
 </div>
