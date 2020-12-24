@@ -57,7 +57,7 @@
               <li class="contact-ways-list-item1">
                 <div class="item">
                   <div><i class="fas fa-phone-volume contact-phone"></i></div>
-                  <p>Phone : +91 95130 40055</p>
+                  <p>Phone : +91 96203 93291</p>
                   <p>Phone : +91 99169 17983</p>
                 </div>
               </li>
