@@ -102,13 +102,13 @@
               <li>
                 <div class="item">
                   <img class="img-responsive center-block" src="./images/new_icons/business.gif" />
-                  <h3>Business Loans @12%<code>*</code></h3>
+                  <h3>Business Loans @16.5%<code>*</code></h3>
                 </div>
               </li>
               <li>
                 <div class="item">
                   <img class="img-responsive center-block" src="./images/new_icons/pl.gif" />
-                  <h3>Personal Loans @10.75%<code>*</code></h3>
+                  <h3>Personal Loans @10.5%<code>*</code></h3>
                 </div>
               </li>
               <li>
@@ -149,7 +149,7 @@
             <li>
               <div class="item-wrapper">
                 <h5 class="value-label">Offer Loan interest<code>*</code></h5>
-                <h3 class="value">12%</h3>
+                <h3 class="value">16.5%</h3>
               </div>
             </li>
           </ul>
@@ -180,7 +180,7 @@
                 <div class="content-wrapper">
                   <img class="img-responsive center-block" src="./images/new_icons/business_loan.png">
                   <h3 class="content-header">Business loans<code>*</code></h3>
-                  <h3>@12%</h3>
+                  <h3>@16.5%</h3>
                   <p>Low interest</p>
                   <a href="register"><button class="btn btn-default mf-btn-primary" type="button">Apply Now</button></a>
                 </div>
@@ -191,7 +191,7 @@
                 <div class="content-wrapper">
                   <img class="img-responsive center-block" src="./images/new_icons/personal_loan.png">
                   <h3 class="content-header">Personal Loan<code>*</code></h3>
-                  <h3>@10.75%</h3>
+                  <h3>@10.5%</h3>
                   <p>Low interest</p>
                   <a href="register"><button class="btn btn-default mf-btn-primary" type="button">Apply Now</button></a>
                 </div>
@@ -202,7 +202,7 @@
                 <div class="content-wrapper">
                   <img class="img-responsive center-block" src="./images/new_icons/edc_loan.png">
                   <h3 class="content-header">EDC Loans<code>*</code></h3>
-                  <h3>@12%</h3>
+                  <h3>@16.5%</h3>
                   <p>Low interest</p>
                   <a href="register"><button class="btn btn-default mf-btn-primary" type="button">Apply Now</button></a>
                 </div>
@@ -213,7 +213,7 @@
                 <div class="content-wrapper">
                   <img class="img-responsive center-block" src="./images/new_icons/project_funding.png">
                   <h3 class="content-header">Project Funding<code>*</code></h3>
-                  <h3>@7.5%</h3>
+                  <h3>12%</h3>
                   <p>Low interest</p>
                   <a href="register"><button class="btn btn-default mf-btn-primary" type="button">Apply Now</button></a>
                 </div>
@@ -224,7 +224,7 @@
                 <div class="content-wrapper">
                   <img class="img-responsive center-block" src="./images/new_icons/auto loan.png">
                   <h3 class="content-header">Auto loans<code>*</code></h3>
-                  <h3>@7.9%</h3>
+                  <h3>@8.5%</h3>
                   <p>Low interest</p>
                   <a href="register"><button class="btn btn-default mf-btn-primary" type="button">Apply Now</button></a>
                 </div>
