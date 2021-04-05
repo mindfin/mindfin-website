@@ -58,12 +58,13 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <li class="<?php echo ($_SERVER['PHP_SELF'] == "/index.php" ? "active" : ""); ?>"><a href="index.php">Home </a></li>
-          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/about-us.php" ? "active" : ""); ?>"><a href="about-us.php">About Us</a></li>
-          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/business_loan.php" ? "active" : ""); ?>"><a href="business_loan.php">Business Loans</a></li>
+           <li class="<?php echo ($_SERVER['PHP_SELF'] == "/about-us.php" ? "active" : ""); ?>"><a href="about-us.php">About Us</a></li>
+          <!--<li class="<?php echo ($_SERVER['PHP_SELF'] == "/business_loan.php" ? "active" : ""); ?>"><a href="business_loan.php">Business Loans</a></li>
           <li class="<?php echo ($_SERVER['PHP_SELF'] == "/mortgages.php" ? "active" : ""); ?>"><a href="mortgages.php">Mortgages</a></li>
-          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/personal_loan.php" ? "active" : ""); ?>"><a href="personal_loan.php">Personal Loans</a></li>
-          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/other_loan.php" ? "active" : ""); ?>"><a href="other_loan.php"> Other Loans</a></li>
-          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/contact.php" ? "active" : ""); ?>"><a href="contact.php">Contact Us</a></li>
+          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/personal_loan.php" ? "active" : ""); ?>"><a href="personal_loan.php">Personal Loans</a></li> -->
+          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/other_loan.php" ? "active" : ""); ?>"><a href="other_loan.php"> Services</a></li>
+          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/other_loan.php" ? "active" : ""); ?>"><a href="other_loan.php"> Blog</a></li>
+          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/contact.php" ? "active" : ""); ?>"><a href="contact.php">Reach Us</a></li>
           <li class="apply-item "><a class="btn btn-default apply-btn" href="register" role="button">Apply Now</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
