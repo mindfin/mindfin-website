@@ -150,7 +150,7 @@
                                 <div class="frontside">
                                     <div class="card">
                                         <div class="card-body text-center">
-                                            <p><img class=" img-fluid" src="assets/img/team/deepak.png" alt="card image"></p>
+                                            <p><img class=" img-fluid" src="assets/img/team/Deepak.png" alt="card image"></p>
                                             <h4 class="card-title">Mr. Deepak A R</h4>
                                             <p class="card-text">Director</p>
                                         </div>
@@ -210,7 +210,7 @@
                                 <div class="frontside">
                                     <div class="card">
                                         <div class="card-body text-center">
-                                            <p><img class=" img-fluid" src="assets/img/team/vanitha.png" alt="card image"></p>
+                                            <p><img class=" img-fluid" src="assets/img/team/Vanitha.png" alt="card image"></p>
                                             <h4 class="card-title">Ms. Vanitha Praveen</h4>
                                             <p class="card-text">Business Head</p>
 
@@ -405,8 +405,7 @@
                                     <h4>Resources</h4>
                                     <ul>
                                         <li><a href="emi_calculator.html">EMI Calculator</a></li>
-                                        <li><a href="#">FAQs</a></li>
-                                        <li><a href="#">Partner With Us</a></li>
+                                        <li><a href="faq.html">FAQs</a></li>
                                         <li><a href="#">As Business Partners</a></li>
                                         <li><a href="#">As Career</a></li>
                                     </ul>
@@ -610,7 +609,30 @@
     <!-- Jquery Plugins, main Jquery -->
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml: true,
+                version: 'v10.0'
+            });
+        };
 
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution="setup_tool" page_id="107913220602367">
+    </div>
 </body>
+
 
 </html>

@@ -5921,6 +5921,99 @@ z .slider-area .hero-cap h2 {
     background: #1696e7
 }
 
+.service-area .services-caption-auto {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    box-shadow: 0px 0px 9px 0px rgb(131 93 248 / 10%);
+    height: 400px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .service-area .services-caption-auto {
+        padding: 84px 25px 56px
+    }
+}
+
+.service-area .services-caption-auto .service-icon {
+    display: inline-block;
+    position: relative;
+}
+
+.service-area .services-caption-auto .service-icon::before {
+    background-image: url(../img/shape/dot-bg.png);
+    content: "";
+    width: 80px;
+    height: 135px;
+    position: absolute;
+    right: -29px;
+    top: -35px;
+    z-index: 0;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s
+}
+
+.service-area .services-caption-auto .service-icon span {
+    position: relative;
+    color: #fff;
+    font-size: 40px;
+    height: 105px;
+    width: 105px;
+    display: block;
+    line-height: 105px;
+    border-radius: 50%;
+    text-align: center;
+    background: #ffd901;
+    margin-bottom: 42px;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s
+}
+
+.service-area .services-caption-auto .service-cap h4 a {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 27px;
+    display: inline-block
+}
+
+.service-area .services-caption-auto .service-cap h4 a:hover {
+    color: #ffd901
+}
+
+.services-caption-auto:hover {
+    border: 1px solid #ffd901
+}
+
+.services-caption-auto:hover .service-icon::before {
+    right: -32px
+}
+
+.services-caption-auto:hover .service-icon span {
+    background: #1696e7
+}
+
+.services-caption-auto.active {
+    border: 1px solid #1696e7
+}
+
+.services-caption-auto.active .service-icon::before {
+    right: -32px
+}
+
+.services-caption-auto.active .service-icon span {
+    background: #1696e7
+}
+
 .applic-apps {
     overflow: hidden;
     position: relative;
