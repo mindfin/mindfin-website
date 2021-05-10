@@ -87,49 +87,52 @@
     });
 
     /* 4. Testimonial Active*/
-    var testimonial = $('.h1-testimonial-active');
-    if (testimonial.length) {
-        testimonial.slick({
-            dots: false,
-            infinite: true,
-            speed: 1000,
-            autoplay: true,
+    if ($('.testimonial-carousel').length) {
+        $('.testimonial-carousel').owlCarousel({
+            animateOut: 'slideOutDown',
+            animateIn: 'zoomIn',
             loop: true,
-            arrows: false,
-            prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
-            nextArrow: '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: false,
-                        arrow: false
-                    }
+            margin: 0,
+            // nav: true,
+            smartSpeed: 300,
+            autoplay: 3000,
+            // navText: ['<span class="arrow-left"></span>', '<span class="arrow-right"></span>'],
+            responsive: {
+                0: {
+                    items: 1
                 },
-                {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        arrows: false
-                    }
+                600: {
+                    items: 1
                 },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        arrows: false,
-                    }
+                800: {
+                    items: 1
+                },
+                1024: {
+                    items: 1
                 }
-            ]
+            }
         });
     }
-
+    $('.header').owlCarousel({
+        loop: true,
+        animateOut: 'slideOutDown',
+        animateIn: 'flipInX',
+        margin: 0,
+        // nav: true,
+        smartSpeed: 300,
+        autoplay: 3000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    })
 
     /* 5.  Applic App */
     var client_list = $('.app-active');
@@ -139,10 +142,9 @@
             slidesToScroll: 1,
             loop: true,
             autoplay: true,
-            speed: 3000,
-            smartSpeed: 2000,
+            speed: 500,
+            smartSpeed: 1000,
             dots: false,
-            margin: 15,
             nav: false,
             navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
             autoplayHoverPause: true,
