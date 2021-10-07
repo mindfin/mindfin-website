@@ -1,0 +1,27 @@
+.physicianList ul li {
+    display: block;
+    width: 100%;
+    /* float: left; */
+    margin-bottom: 15px;
+}
+
+
+/*Pagination CSS*/
+
+#page_navigation {
+    clear: both;
+    margin: 20px 0;
+}
+
+#page_navigation a {
+    padding: 3px 6px;
+    border: 1px solid #2a95ec;
+    margin: 2px;
+    color: black;
+    text-decoration: none
+}
+
+.active_page {
+    background: #2a95ec;
+    color: white !important;
+}

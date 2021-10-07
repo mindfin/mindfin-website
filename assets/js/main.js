@@ -115,12 +115,12 @@
     }
     $('.header').owlCarousel({
         loop: true,
-        animateOut: 'slideOutDown',
-        animateIn: 'flipInX',
+        animateOut: 'zoomOutLeft',
+        animateIn: 'fadeInRight',
         margin: 0,
         // nav: true,
-        smartSpeed: 300,
-        autoplay: 3000,
+        smartSpeed: 200,
+        autoplay: 1000,
         responsive: {
             0: {
                 items: 1
@@ -331,7 +331,4 @@ jQuery(function($) {
         options = $.extend({}, options || {}, $this.data('countToOptions') || {});
         $this.countTo(options);
     }
-
-
-
-})(jQuery);
+})

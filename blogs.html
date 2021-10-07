@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/blogpagination.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151244197-1"></script>
     <script>
@@ -98,8 +99,8 @@
                                         </li>
                                         <li><a href="#">Join With Us <i Class="fas fa-chevron-down"></i></a>
                                             <ul class="submenu">
-                                                <li><a href="#">As Business Partner</a></li>
-                                                <li><a href="career.html">As Career</a></li>
+                                                <li><a href="business_partners.html">As Business Partner</a></li>
+                                                <li><a href="careers.html">As Career</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="contact.html">Contact</a></li>
@@ -139,77 +140,163 @@
             <div class="row">
                 <div class="col-lg-8 mb-5 mb-lg-0">
                     <div class="blog_left_sidebar">
-                        <article class="blog_item">
-                            <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="assets/img/blog/single_blog_1.png" alt="">
-                                <a href="business-loan-blog.html" class="blog_item_date">
-                                    <h3>20</h3>
-                                    <p>March</p>
-                                </a>
-                            </div>
+                        <div class="physicianList">
+                            <input type='hidden' id='current_page' />
+                            <input type='hidden' id='show_per_page' />
+                            <ul id="pagingBox">
+                                <li>
+                                    <article class="blog_item">
+                                        <div class="blog_item_img">
+                                            <img class="card-img rounded-0" src="https://midnfin-images.oss-ap-south-1.aliyuncs.com/mindfin-website/img/blog/crypto-currrency.png" alt="">
+                                            <a href="crypto-currency-blog.html" class="blog_item_date">
+                                                <h3>20</h3>
+                                                <p>March</p>
+                                            </a>
+                                        </div>
 
-                            <div class="blog_details">
-                                <a class="d-inline-block" href="business-loan-blog.html">
-                                    <h2>How can your business recover from the impact of COVID 19? Why should you get a business loan?</h2>
-                                </a>
-                                <ul class="blog-info-link">
-                                    <li><a href="#"><i class="fa fa-user"></i> Team Digi</a></li>
+                                        <div class="blog_details">
+                                            <a class="d-inline-block" href="crypto-currency-blog.html">
+                                                <h2>Here's what you need to know about Cryptocurrency.</h2>
+                                            </a>
+                                            <ul class="blog-info-link">
+                                                <li><a href="#"><i class="fa fa-user"></i> Team Digi</a></li>
 
-                                </ul>
-                            </div>
-                        </article>
-                        <article class="blog_item">
-                            <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="assets/img/blog/single_blog_1.png" alt="">
-                                <a href="blockchain_blog.html" class="blog_item_date">
-                                    <h3>20</h3>
-                                    <p>March</p>
-                                </a>
-                            </div>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </li>
+                                <li>
+                                    <article class="blog_item">
+                                        <div class="blog_item_img">
+                                            <img class="card-img rounded-0" src="https://midnfin-images.oss-ap-south-1.aliyuncs.com/mindfin-website/img/blog/credit-score.png" alt="">
+                                            <a href="cibil-score-blog.html" class="blog_item_date">
+                                                <h3>20</h3>
+                                                <p>March</p>
+                                            </a>
+                                        </div>
 
-                            <div class="blog_details">
-                                <a class="d-inline-block" href="blockchain_blog.html">
-                                    <h2>What is Blockchain? What is the recent buzz on Blockchain? </h2>
-                                </a>
-                                <ul class="blog-info-link">
-                                    <li><a href="#"><i class="fa fa-user"></i>Team Digi</a></li>
+                                        <div class="blog_details">
+                                            <a class="d-inline-block" href="cibil-score-blog.html">
+                                                <h2>The‌ ‌Beginner’s‌ ‌Guide‌ ‌to‌ ‌CIBIL‌ ‌Score</h2>
+                                            </a>
+                                            <ul class="blog-info-link">
+                                                <li><a href="#"><i class="fa fa-user"></i> Team Digi</a></li>
 
-                                </ul>
-                            </div>
-                        </article>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </li>
+                                <li>
+                                    <article class="blog_item">
+                                        <div class="blog_item_img">
+                                            <img class="card-img rounded-0" src="https://midnfin-images.oss-ap-south-1.aliyuncs.com/mindfin-website/img/blog/bitcoin.png" alt="">
+                                            <a href="bitcoin-blog.html" class="blog_item_date">
+                                                <h3>20</h3>
+                                                <p>March</p>
+                                            </a>
+                                        </div>
+
+                                        <div class="blog_details">
+                                            <a class="d-inline-block" href="bitcoin-blog.html">
+                                                <h2>Everything you need to know about bitcoin before investing.</h2>
+                                            </a>
+                                            <ul class="blog-info-link">
+                                                <li><a href="#"><i class="fa fa-user"></i> Team Digi</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </li>
+
+
+                                <li>
+                                    <article class="blog_item">
+                                        <div class="blog_item_img">
+                                            <img class="card-img rounded-0" src="https://midnfin-images.oss-ap-south-1.aliyuncs.com/mindfin-website/img/blog/covid-business-impact.png" alt="">
+                                            <a href="business-loan-blog.html" class="blog_item_date">
+                                                <h3>20</h3>
+                                                <p>March</p>
+                                            </a>
+                                        </div>
+
+                                        <div class="blog_details">
+                                            <a class="d-inline-block" href="business-loan-blog.html">
+                                                <h2>How can your business recover from the impact of COVID 19? Why should you get a business loan?</h2>
+                                            </a>
+                                            <ul class="blog-info-link">
+                                                <li><a href="#"><i class="fa fa-user"></i> Team Digi</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </li>
+
+                                <li>
+                                    <article class="blog_item">
+                                        <div class="blog_item_img">
+                                            <img class="card-img rounded-0" src="https://midnfin-images.oss-ap-south-1.aliyuncs.com/mindfin-website/img/blog/blockchain.png" alt="">
+                                            <a href="blockchain_blog.html" class="blog_item_date">
+                                                <h3>20</h3>
+                                                <p>March</p>
+                                            </a>
+                                        </div>
+
+                                        <div class="blog_details">
+                                            <a class="d-inline-block" href="blockchain_blog.html">
+                                                <h2>What is Blockchain? What is the recent buzz on Blockchain? </h2>
+                                            </a>
+                                            <ul class="blog-info-link">
+                                                <li><a href="#"><i class="fa fa-user"></i>Team Digi</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <div id='page_navigation'></div>
+
 
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="blog_right_sidebar">
-                        <aside class="single_sidebar_widget post_category_widget">
-                            <h4 class="widget_title">Category</h4>
-                            <ul class="list cat-list">
-                                <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Financial</p>
-                                        <p></p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Personal</p>
-                                        <p></p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Modern technology</p>
-                                        <p></p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </aside>
+
 
                         <aside class="single_sidebar_widget popular_post_widget">
                             <h3 class="widget_title">Recent Post</h3>
                             <div class="media post_item">
-                                <img src="assets/img/post/post_1.png" alt="post">
+                                <img src="https://midnfin-images.oss-ap-south-1.aliyuncs.com/mindfin-website/img/blog/Small%20icons/ceypto_icon.png" alt="post">
+                                <div class="media-body">
+                                    <a href="#">
+                                        <h3>Here's what you need to know about Cryptocurrency.</h3>
+                                    </a>
+                                    <p>March 20, 2021</p>
+                                </div>
+                            </div>
+                            <div class="media post_item">
+                                <img src="https://midnfin-images.oss-ap-south-1.aliyuncs.com/mindfin-website/img/blog/Small%20icons/Credit_score_icon.png" alt="post">
+                                <div class="media-body">
+                                    <a href="#">
+                                        <h3>The‌ ‌Beginner’s‌ ‌Guide‌ ‌to‌ ‌CIBIL‌ ‌Score‌ </h3>
+                                    </a>
+                                    <p>March 20, 2021</p>
+                                </div>
+                            </div>
+                            <div class="media post_item">
+                                <img src="https://midnfin-images.oss-ap-south-1.aliyuncs.com/mindfin-website/img/blog/Small%20icons/bitcoin_icon.png" alt="post">
+                                <div class="media-body">
+                                    <a href="#">
+                                        <h3>Everything you need to know about bitcoin before investing.</h3>
+                                    </a>
+                                    <p>March 20, 2021</p>
+                                </div>
+                            </div>
+
+                            <div class="media post_item">
+                                <img src="https://midnfin-images.oss-ap-south-1.aliyuncs.com/mindfin-website/img/blog/Small%20icons/Covid_impact_Business_icon.png" alt="post">
                                 <div class="media-body">
                                     <a href="#">
                                         <h3>How can your business recover from the impact of COVID 19? Why should you get a business loan?</h3>
@@ -219,7 +306,7 @@
                             </div>
 
                             <div class="media post_item">
-                                <img src="assets/img/post/post_3.png" alt="post">
+                                <img src="https://midnfin-images.oss-ap-south-1.aliyuncs.com/mindfin-website/img/blog/Small%20icons/Blockchain_icon.png" alt="post">
                                 <div class="media-body">
                                     <a href="#">
                                         <h3>What is Blockchain? What is the recent buzz on Blockchain? </h3>
@@ -230,14 +317,18 @@
 
                         </aside>
                         <aside class="single_sidebar_widget instagram_feeds">
-                            <h4 class="widget_title">Instagram Feeds</h4>
-
+                            <!-- <h4 class="widget_title">Instagram Feeds</h4> -->
+                            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                            <div class="elfsight-app-0e360245-18f0-40d4-90a2-8b07aa5c282a"></div>
                         </aside>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+
     <!--================Blog Area =================-->
     <!-- Say Something Start -->
     <div class="say-something-aera pt-90 pb-90 fix">
@@ -246,11 +337,13 @@
                 <div class="offset-xl-1 offset-lg-1 col-xl-5 col-lg-5">
                     <div class="say-something-cap">
                         <h4>Take advantage of quick loan processing and Easy EMI's.</h4>
+                        <span>Talk with an expert, to know more about our services.</span>
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-3">
                     <div class="say-btn">
-                        <a href="#" class="btn radius-btn">Contact Us</a>
+
+                        <a href="contact.html" class="btn radius-btn">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -263,87 +356,82 @@
     </div>
     <!-- Say Something End -->
 
-    <footer>
+    </main>
+    <footer class="footer">
+        <div class="container bottom_border">
 
-        <!-- Footer Start-->
-        <div class="footer-main">
-            <div class="footer-area footer-padding">
-                <div class="container">
-                    <div class="row  justify-content-between">
-                        <div class="col-lg-3 col-md-4 col-sm-8">
-                            <div class="single-footer-caption mb-20">
-                                <!-- logo -->
-                                <div class="footer-logo">
-                                    <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt="" width=80%></a>
-                                </div>
-                                <div class="footer-tittle">
-                                    <div class="footer-pera">
-                                        <p class="info1">Mindfin Ser was established 15 years ago with aconcept of bringing all financial institutions and their services under one roof, We came into existence to help the customers to choose the most suitable financial
-                                            packages for them. Our main objective is to fulfill the financial needs of the customers through smooth bank policies.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-5">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Products</h4>
-                                    <ul>
-                                        <li><a href="unsecured-loan.html">Unsecured Loan</a></li>
-                                        <li><a href="secured-loan.html">Secured Loan</a></li>
-                                        <!-- <li><a href="#">Home Loan</a></li> -->
-                                        <li><a href="auto-loan.html">Auto Loan</a></li>
-                                        <li><a href="#">Other Loan</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-7">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Company</h4>
-                                    <ul>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="Ourteam.html">Team</a></li>
-                                        <li><a href="gallery.html">Gallery</a></li>
-                                        <li><a href="privacy.html">Privacy Policy</a></li>
-                                        <li><a href="termsandcondition.html">Terms & Conditions</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-7">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Resources</h4>
-                                    <ul>
-                                        <li><a href="emi-calculator.html">EMI Calculator</a></li>
-                                        <li><a href="faq.html">FAQs</a></li>
-                                        <li><a href="#">As Business Partners</a></li>
-                                        <li><a href="career.html">As Career</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <!-- Copy-Right -->
-                    <div class="row align-items-center">
-                        <div class="col-xl-12 ">
-                            <div class="footer-copy-right">
-                                <p>
-                                    Copyright &copy; 2004 To
-                                    <script>
-                                        document.write(new Date().getFullYear());
-                                    </script> All rights reserved
-                                </p>
-                            </div>
-                        </div>
+            <div class="row">
+                <div class="col-sm-4 col-12 col">
+                    <div class="footer-tittle pt2">
+                        <p class="info1">Mindfin Ser was established 15 years ago with the goal of bringing all financial institutions and their services under one roof. We were founded to assist clients in selecting the most appropriate financial packages. Our main objective
+                            is to meet our customers' financial demands by implementing sound banking regulations.</p>
                     </div>
                 </div>
+
+
+                <div class=" col-sm-2 col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+                    <!--headin5_amrc-->
+                    <ul class="footer_ul_amrc">
+                        <li><a href="unsecured-loan.html">Usecured Loan</a></li>
+                        <li><a href="secured-loan.html">Secured Loan</a></li>
+                        <li><a href="auto-loan.html">Auto Loan</a></li>
+                        <li><a href="#">Other Loan</a></li>
+                    </ul>
+                    <!--footer_ul_amrc ends here-->
+                </div>
+
+
+                <div class=" col-sm-2 col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Company</h5>
+                    <!--headin5_amrc-->
+                    <ul class="footer_ul_amrc">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="Ourteam.html">Team</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="termsandcondition.html">Terms & Conditions</a></li>
+                    </ul>
+                    <!--footer_ul_amrc ends here-->
+                </div>
+                <div class=" col-sm-2 col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Resources</h5>
+                    <!--headin5_amrc-->
+                    <ul class="footer_ul_amrc">
+                        <li><a href="emi-calculator.html">EMI Calculator</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="business_partners.html">As Business Partners</a></li>
+                        <li><a href="careers.html">As Career</a></li>
+                    </ul>
+                    <!--footer_ul_amrc ends here-->
+                </div>
+
+
+                <div class=" col-sm-2 col-md  col-12 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Contact us</h5>
+
+                    <!-- <p><i class="fa fa-location-arrow"></i> No. 10, 1st Floor, Krishna Block, 1st Main Road, Seshadripuram, Bangalore- 560020 </p> -->
+                    <p><i class="fa fa-phone"></i> +91 9916162353 </p>
+                    <p><i class="fa fa fa-envelope"></i> info@mindfin.co.in </p>
+
+                </div>
+            </div>
+            <div class="footer-logo pt2 text-center">
+                <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt="" width=50%></a>
             </div>
         </div>
-        <!-- Footer End-->
+
+
+        <div class="container">
+
+            <!--foote_bottom_ul_amrc ends here-->
+            <p class="text-center"> Copyright &copy; 2004 To
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> All rights reserved
+                <!-- | Designed With by <a href="#">Your Company Name</a></p> -->
+                <!--social_footer_ul ends here-->
+        </div>
 
     </footer>
     <div class="news-letter-wrapper3 blink ">
@@ -524,6 +612,7 @@
 
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/blog-pagination.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 
     <script>

@@ -98,8 +98,8 @@
                                         </li>
                                         <li><a href="#">Join With Us <i Class="fas fa-chevron-down"></i></a>
                                             <ul class="submenu">
-                                                <li><a href="#">As Business Partner</a></li>
-                                                <li><a href="career.html">As Career</a></li>
+                                                <li><a href="business_partners.html">As Business Partner</a></li>
+                                                <li><a href="careers.html">As Career</a></li>
                                             </ul>
                                         </li>
                                         <li class="active"><a href="contact.html">Contact</a></li>
@@ -121,18 +121,10 @@
 
 
     <!-- Slider Area Start-->
-    <div class="services-area">
-        <div class="container">
-            <!-- Section-tittle -->
-            <div class="row d-flex justify-content-center">
-                <div class="col-lg-8">
-                    <div class="section-tittle text-center mb-80">
-                        <h2>Contact Us​</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <section class="service-area services-padding">
+        <img class="img-fluid" src="https://midnfin-images.oss-ap-south-1.aliyuncs.com/mindfin-website/img/about/Master-banner.gif" alt="Business loan in bangalore" width="100%" image-resolution="300dpi">
+
+    </section>
     <!-- Slider Area End-->
 
     <!-- ================ contact section start ================= -->
@@ -143,7 +135,7 @@
                     <h2 class="contact-title">Get in Touch</h2>
                 </div>
                 <div class="col-lg-8">
-                    <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                    <form class="form-contact contact_form" method="post" id="contactForm" novalidate="novalidate">
                         <div class="row">
 
                             <div class="col-sm-6">
@@ -173,8 +165,8 @@
                             </div>
                             <div class="col-12">
                                 <div class="form-group">
-                                    <input name="agree" id="agree" type="checkbox" onblur="this.placeholder = 'please check this box to proeced.'"> I, here by authorize Mindfin Ser Pvt. Ltd. to contact me in future through Calls / SMS / E-Mails anf inform
-                                    you about our producs, it will override my registry on the NCPR
+                                    <input name="agree" id="agree" type="checkbox" onblur="this.placeholder = 'please check this box to proeced.'"> I, here by authorize Mindfin Ser Pvt. Ltd. to contact me in future through Calls / SMS / E-Mails and inform
+                                    me about your products, it will override my registry on the NCPR
                                 </div>
                             </div>
                             <!-- <div class="col-12">
@@ -183,8 +175,11 @@
                                 </div>
                             </div> -->
                         </div>
-                        <div class="form-group mt-3">
-                            <button type="submit" class="button button-contactForm boxed-btn">Send</button>
+                        <div class="form-group mt-3 sendFromWeb">
+                            <button class="button button-contactForm boxed-btn" onclick=sendFromWeb()>Send</button>
+                        </div>
+                        <div class="form-group mt-3 sendFromMobile">
+                            <button class="button button-contactForm boxed-btn" onclick=sendFromMobile()>Send</button>
                         </div>
                     </form>
                 </div>
@@ -212,101 +207,95 @@
                     </div>
                 </div>
             </div>
-            <div class="d-none d-sm-block mb-5 pb-4">
-                <div class="contact-us-image-wrapper">
-                    <!--<img src="images/contact-us.png" class="img-responsive" alt="image-map"/>-->
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3887.6521769048118!2d77.57684091388332!3d12.994084590841156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sNo.10%2C+1st+Floor%2C+Krishna+Block%2C+1st+Main+Road%2C+Seshadripuram%2C+Bangalore+-+560020!5e0!3m2!1sen!2sin!4v1555677426614!5m2!1sen!2sin"
-                        width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-            </div>
+
 
 
 
         </div>
     </section>
+    <div class="contact-us-image-wrapper">
+        <!--<img src="images/contact-us.png" class="img-responsive" alt="image-map"/>-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3887.6521769048118!2d77.57684091388332!3d12.994084590841156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sNo.10%2C+1st+Floor%2C+Krishna+Block%2C+1st+Main+Road%2C+Seshadripuram%2C+Bangalore+-+560020!5e0!3m2!1sen!2sin!4v1555677426614!5m2!1sen!2sin"
+            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
     <!-- ================ contact section end ================= -->
 
-    <footer>
 
-        <!-- Footer Start-->
-        <div class="footer-main">
-            <div class="footer-area footer-padding">
-                <div class="container">
-                    <div class="row  justify-content-between">
-                        <div class="col-lg-3 col-md-4 col-sm-8">
-                            <div class="single-footer-caption mb-20">
-                                <!-- logo -->
-                                <div class="footer-logo">
-                                    <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt="" width=80%></a>
-                                </div>
-                                <div class="footer-tittle">
-                                    <div class="footer-pera">
-                                        <p class="info1">Mindfin Ser was established 15 years ago with aconcept of bringing all financial institutions and their services under one roof, We came into existence to help the customers to choose the most suitable financial
-                                            packages for them. Our main objective is to fulfill the financial needs of the customers through smooth bank policies.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-5">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Products</h4>
-                                    <ul>
-                                        <li><a href="unsecured-loan.html">Unsecured Loan</a></li>
-                                        <li><a href="secured-loan.html">Secured Loan</a></li>
-                                        <!-- <li><a href="#">Home Loan</a></li> -->
-                                        <li><a href="auto-loan.html">Auto Loan</a></li>
-                                        <li><a href="#">Other Loan</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-7">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Company</h4>
-                                    <ul>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="Ourteam.html">Team</a></li>
-                                        <li><a href="gallery.html">Gallery</a></li>
-                                        <li><a href="privacy.html">Privacy Policy</a></li>
-                                        <li><a href="termsandcondition.html">Terms & Conditions</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-7">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Resources</h4>
-                                    <ul>
-                                        <li><a href="emi-calculator.html">EMI Calculator</a></li>
-                                        <li><a href="faq.html">FAQs</a></li>
-                                        <li><a href="#">As Business Partners</a></li>
-                                        <li><a href="career.html">As Career</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+    <footer class="footer">
+        <div class="container bottom_border">
 
-                    </div>
-                    <!-- Copy-Right -->
-                    <div class="row align-items-center">
-                        <div class="col-xl-12 ">
-                            <div class="footer-copy-right">
-                                <p>
-                                    Copyright &copy; 2004 To
-                                    <script>
-                                        document.write(new Date().getFullYear());
-                                    </script> All rights reserved
-                                </p>
-                            </div>
-                        </div>
+            <div class="row">
+                <div class="col-sm-4 col-12 col">
+                    <div class="footer-tittle pt2">
+                        <p class="info1">Mindfin Ser was established 15 years ago with the goal of bringing all financial institutions and their services under one roof. We were founded to assist clients in selecting the most appropriate financial packages. Our main objective
+                            is to meet our customers' financial demands by implementing sound banking regulations.</p>
                     </div>
                 </div>
+
+
+                <div class=" col-sm-2 col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+                    <!--headin5_amrc-->
+                    <ul class="footer_ul_amrc">
+                        <li><a href="unsecured-loan.html">Usecured Loan</a></li>
+                        <li><a href="secured-loan.html">Secured Loan</a></li>
+                        <li><a href="auto-loan.html">Auto Loan</a></li>
+                        <li><a href="#">Other Loan</a></li>
+                    </ul>
+                    <!--footer_ul_amrc ends here-->
+                </div>
+
+
+                <div class=" col-sm-2 col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Company</h5>
+                    <!--headin5_amrc-->
+                    <ul class="footer_ul_amrc">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="Ourteam.html">Team</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="termsandcondition.html">Terms & Conditions</a></li>
+                    </ul>
+                    <!--footer_ul_amrc ends here-->
+                </div>
+                <div class=" col-sm-2 col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Resources</h5>
+                    <!--headin5_amrc-->
+                    <ul class="footer_ul_amrc">
+                        <li><a href="emi-calculator.html">EMI Calculator</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="business_partners.html">As Business Partners</a></li>
+                        <li><a href="careers.html">As Career</a></li>
+                    </ul>
+                    <!--footer_ul_amrc ends here-->
+                </div>
+
+
+                <div class=" col-sm-2 col-md  col-12 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Contact us</h5>
+
+                    <!-- <p><i class="fa fa-location-arrow"></i> No. 10, 1st Floor, Krishna Block, 1st Main Road, Seshadripuram, Bangalore- 560020 </p> -->
+                    <p><i class="fa fa-phone"></i> +91 9916162353 </p>
+                    <p><i class="fa fa fa-envelope"></i> info@mindfin.co.in </p>
+
+                </div>
+            </div>
+            <div class="footer-logo pt2 text-center">
+                <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt="" width=50%></a>
             </div>
         </div>
-        <!-- Footer End-->
+
+
+        <div class="container">
+
+            <!--foote_bottom_ul_amrc ends here-->
+            <p class="text-center"> Copyright &copy; 2004 To
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> All rights reserved
+                <!-- | Designed With by <a href="#">Your Company Name</a></p> -->
+                <!--social_footer_ul ends here-->
+        </div>
 
     </footer>
     <div class="news-letter-wrapper3 blink ">
@@ -525,7 +514,93 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
+    <script>
+        // function validation() {
+        //     $('#contactForm').validate({
+        //         rules: {
+        //             name: {
+        //                 required: true,
+        //                 minlength: 2
+        //             },
+        //             subject: {
+        //                 required: true,
+        //                 minlength: 4
+        //             },
+        //             number: {
+        //                 required: true,
+        //                 minlength: 5
+        //             },
+        //             email: {
+        //                 required: true,
+        //                 email: true
+        //             },
+        //             message: {
+        //                 required: true,
+        //                 minlength: 20
+        //             },
+        //             agree: {
+        //                 required: true,
+        //             },
+        //         },
+        //         messages: {
+        //             name: {
+        //                 required: "come on, you have a name, don't you?",
+        //                 minlength: "your name must consist of at least 2 characters"
+        //             },
+        //             subject: {
+        //                 required: "come on, you have a subject, don't you?",
+        //                 minlength: "your subject must consist of at least 4 characters"
+        //             },
+        //             number: {
+        //                 required: "come on, you have a Mobile number, don't you?",
+        //                 minlength: "your Number must consist of at least 5 characters"
+        //             },
+        //             email: {
+        //                 required: "no email, no message"
+        //             },
+        //             message: {
+        //                 required: "um...yea, you have to write something to send this form.",
+        //                 minlength: "thats all? really?"
+        //             },
+        //             agree: {
+        //                 required: " please check this box to proeced.",
+        //             }
+        //         },
+        //         submitHandler: function(click) {
+        //             click.sendFromWeb();
+        //         }
 
+        //     })
+
+
+        // }
+
+        function sendFromWeb() {
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let num = document.getElementById("number").value;
+            let sub = document.getElementById("subject").value;
+            let msg = document.getElementById("message").value;
+            let agree = document.getElementById("agree").value;
+            // document.write(agree);
+            if (name !== "" && email !== "" && num !== "" && sub !== "" && msg !== "")
+                var win = window.open(`https://web.whatsapp.com/send?phone=+919916162353&text=Hello,%0D%0A%0D%0AName%20:%20${name}%0D%0AEmail%20:%20${email}%0D%0AMobile%20No%20:%20${num}%0D%0ASubject%20:%20${sub}%0D%0AMessage%20:%20${msg}%0D%0A%0D%0AI've%20given%20all%20of%20the%20required%20details.%20I'm%20looking%20forward%20to%20hearing%20from%20you.%0D%0A%0D%0AThank You`);
+
+        }
+
+        function sendFromMobile() {
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let num = document.getElementById("number").value;
+            let sub = document.getElementById("subject").value;
+            let msg = document.getElementById("message").value;
+            let agree = document.getElementById("agree").value;
+            // document.write(agree);
+            if (name !== "" && email !== "" && num !== "" && sub !== "" && msg !== "")
+                var win = window.open(`https://api.whatsapp.com/send?phone=+919916162353&text=Hello,%0D%0A%0D%0AName%20:%20${name}%0D%0AEmail%20:%20${email}%0D%0AMobile%20No%20:%20${num}%0D%0ASubject%20:%20${sub}%0D%0AMessage%20:%20${msg}%0D%0A%0D%0AI've%20given%20all%20of%20the%20required%20details.%20I'm%20looking%20forward%20to%20hearing%20from%20you.%0D%0A%0D%0AThank You`);
+
+        }
+    </script>
     <!-- Your Chat Plugin code -->
     <div class="fb-customerchat" attribution="setup_tool" page_id="107913220602367">
     </div>
